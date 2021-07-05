@@ -1,0 +1,60 @@
+/* developed by mb_mishu */
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    font-size: 16px;
+    /* background: #131313; */
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    background-color: white;
+    /* overflow-x: hidden; */
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    background: var(--theme-color);
+}
+
+::selection {
+    color: white;
+    background: var(--theme-color);
+}
+
+
+/* LINKS */
+
+a {
+    -webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -ms-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+b {
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 800;
+}
+
+:root {
+    --theme-color: #007bff;
+    --theme-dark: #1e1e1e;
+    --theme-light: #f8f9fa;
+}
