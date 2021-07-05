@@ -13,3 +13,29 @@
 <a href="https://mbmishu.github.io/Duburi-Frontend/">![Duburi](https://img.shields.io/badge/Duburi-Live-9cf?style=for-the-badge)</a>
 
 </div>
+
+## Download & Setup Instructions :
+
+Clone the project. This will download the GitHub respository files onto your local machine.
+
+```Shell
+git clone https://github.com/MBMishu/Duburi-Frontend.git
+```
+
+## 📸 Screenshots :
+
+<table width="100%"> 
+<tr>
+<td width="50%">
+&nbsp; 
+<br>
+
+<img src="https://mbmishu.github.io/Duburi-Frontend//home.PNG">
+
+</td>
+</table> 
+<!-- i will upload the Dark Mode screenshots soon !-->
+<br/>
+
+
+
