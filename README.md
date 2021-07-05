@@ -34,8 +34,9 @@ git clone https://github.com/MBMishu/Duburi-Frontend.git
 
 </td>
 </table> 
-<!-- i will upload the Dark Mode screenshots soon !-->
 <br/>
 
-
+## Contributors :
+<!-- add your name here -->
+ [@MbMishu](https://github.com/MBMishu/)
 
