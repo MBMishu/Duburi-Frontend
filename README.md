@@ -1,6 +1,6 @@
 # 
 <p align="center">
-  <img src="./assets/img/logo.png">
+  <img src="https://mbmishu.github.io/Duburi-Frontend/asssets/img/logo.png">
   <h1 align="center">
     Duburi
   </h1>
