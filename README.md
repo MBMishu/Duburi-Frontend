@@ -30,7 +30,7 @@ git clone https://github.com/MBMishu/Duburi-Frontend.git
 &nbsp; 
 <br>
 
-<img src="https://mbmishu.github.io/Duburi-Frontend//home.PNG">
+<img src="https://mbmishu.github.io/Duburi-Frontend/asssets/img/home.png">
 
 </td>
 </table> 
