@@ -239,7 +239,7 @@ main {
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    opacity: .4;
+    opacity: 0.4;
     /* mix-blend-mode: luminosity; */
 }
 
@@ -463,74 +463,73 @@ flex-wrap: nowrap;
     background: var(--theme-color);
 }
 
+
 /* FOOTER */
+
 .footer {
     width: 100%;
-    display: flex;
+    /* display: flex; */
     color: #fff;
-    background: url(../images/anim-hero.gif) center no-repeat #131313;
+    background: url(../img/about-bg.png) top center no-repeat #131313;
     text-align: center;
+    position: relative;
+}
+
+.footer-section {
+    background: rgba(8, 8, 8, 0.8);
     padding-top: 150px;
     padding-bottom: 50px;
-    position: relative;
-  }
-  .footer img {
-    min-height: 100%;
-    width: 100%;
-    height: 100%;
-    /* padding: 100px;
-    padding-left: 100px;
-    padding-right: 100px; */
+}
 
-    position: absolute;
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-  }
-  .footer h2 {
+.footer h2 {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 30px;
-  }
-  .footer h5 {
+}
+
+.footer h5 {
     font-family: "Fjalla One", sans-serif;
-    text-transform: uppercase;
+    /* text-transform: capitalize; */
     margin-bottom: 50px;
     color: #808080;
-  }
-  .footer ul {
+}
+
+.footer ul {
     display: inline-block;
     margin-bottom: 20px;
     padding: 0;
-  }
-  .footer ul li {
+}
+
+.footer ul li {
     float: left;
     margin: 0 10px;
     padding: 0;
     list-style: none;
-  }
-  .footer ul li a {
+}
+
+.footer ul li a {
     font-size: 13px;
     color: #fff;
-  }
-  .footer ul li a:hover {
+}
+
+.footer ul li a:hover {
     color: #33a16e;
-  }
-  .footer span {
+}
+
+.footer span {
     display: block;
-    font-size: 11px;
-    color: #989898;
+    font-size: 14px;
+    color: white;
     margin-top: 25px;
-  }
-  .footer div a {
-      margin-left: 10px;
-  }
+}
+
+.footer div a {
+    margin-left: 10px;
+}
+
 .social-media-footer li a:hover {
     color: var(--theme-color);
 }
-  
-
-
 
 @media only screen and (max-width: 991px),
 only screen and (max-device-width: 991px) {
