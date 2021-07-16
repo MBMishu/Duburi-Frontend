@@ -38,5 +38,5 @@ git clone https://github.com/MBMishu/Duburi-Frontend.git
 
 ## Contributors :
 <!-- add your name here -->
- [@MbMishu](https://github.com/MBMishu/)
+ [@MbMishu](https://github.com/MBMishu/)<br/>
 [@Siam](https://github.com/siamsaleh)
