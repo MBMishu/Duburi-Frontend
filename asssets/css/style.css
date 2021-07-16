@@ -331,7 +331,7 @@ main {
 
 .page-header {
     width: 100%;
-    height: 600px;
+    height: 400px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -354,62 +354,37 @@ main {
     z-index: 1;
 }
 
-
-/* .page-header .inner {
-width: 100%;
-padding: 0 60px;
-margin-top: 39px;
-position: relative;
-z-index: 3;
+.page-header .inner {
+    width: 100%;
+    padding: 0 60px;
+    margin-top: 39px;
+    position: relative;
+    z-index: 3;
 }
 
 .page-header .inner h2 {
-font-size: 8em;
-font-weight: 800;
-line-height: 1;
-color: #fff;
-position: relative;
-}
-
-.page-header .inner h2:before {
-content: attr(data-text);
-position: absolute;
-left: -2px;
-text-shadow: 1px 0 blue;
-top: 0;
-color: white;
-overflow: hidden;
-clip: rect(0, 900px, 0, 0);
-animation: noise-anim-2 3s infinite linear alternate-reverse;
-}
-
-.page-header .inner h2:after {
-content: attr(data-text);
-position: absolute;
-left: 2px;
-text-shadow: -1px 0 red;
-top: 0;
-color: white;
-overflow: hidden;
-clip: rect(0, xw00px, 0, 0);
-animation: noise-anim 2s infinite linear alternate-reverse;
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1;
+    color: #fff;
+    position: relative;
 }
 
 .page-header .inner p {
-font-size: 26px;
-line-height: 40px;
-color: #fff;
-font-weight: 300;
-margin-bottom: 0;
-padding-right: 40%;
+    font-size: 26px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-right: 40%;
 }
 
 .page-header-spacing {
-width: 100%;
-height: 600px;
-display: flex;
-flex-wrap: nowrap;
-} */
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+}
 
 
 /* INTRODCUTION */
@@ -453,6 +428,32 @@ flex-wrap: nowrap;
 }
 
 .introduction p span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 5px;
+    mix-blend-mode: hard-light;
+    background: var(--theme-color);
+}
+
+.sponsor {
+    width: 100%;
+    background: #fff;
+}
+
+.sponsor h2 {
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.title span {
+    position: relative;
+    display: inline-block;
+}
+
+.title span:after {
     content: "";
     position: absolute;
     left: 0;
@@ -540,7 +541,7 @@ only screen and (max-device-width: 991px) {
         padding-right: 20%;
     }
     .page-header .inner h2 {
-        font-size: 5em;
+        font-size: 4em;
     }
     .page-header .inner p {
         padding-right: 20%;
@@ -577,9 +578,9 @@ only screen and (max-device-width: 767px) {
     .social-media {
         display: none;
     }
-    .scroll-down {
+    /* .scroll-down {
         display: none;
-    }
+    } */
     .introduction {
         padding: 80px 0;
     }
