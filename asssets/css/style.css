@@ -389,9 +389,14 @@ main {
 
 /* INTRODCUTION */
 
+#fullpage {
+    width: 100%;
+    background: #fff;
+}
+
 .introduction {
     width: 100%;
-    padding: 150px 0;
+    padding: 150px 0 0 0;
     background: #fff;
 }
 
@@ -440,6 +445,7 @@ main {
 
 .sponsor {
     width: 100%;
+    padding: 150px 0 0 0;
     background: #fff;
 }
 
