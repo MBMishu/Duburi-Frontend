@@ -396,8 +396,13 @@ main {
 
 .introduction {
     width: 100%;
-    padding: 150px 0 0 0;
+    padding: 1rem 0;
     background: #fff;
+}
+
+.introduction:nth-child(odd) {
+    padding: 5rem 0 5rem 0;
+    background: #f3f3f3;
 }
 
 .introduction h2 {
@@ -445,7 +450,7 @@ main {
 
 .sponsor {
     width: 100%;
-    padding: 150px 0 0 0;
+    padding: 5rem 0 0 0;
     background: #fff;
 }
 
@@ -536,6 +541,39 @@ main {
 
 .social-media-footer li a:hover {
     color: var(--theme-color);
+}
+
+
+/* member info  */
+
+.card {
+    border: 1px solid var(--theme-light);
+    margin-bottom: 20px;
+    transition: border 0.1s, transform 0.3s;
+}
+
+.card:hover {
+    border: 1px solid var(--theme-color);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.card .card-body h5 {
+    color: var(--theme-color);
+}
+
+.card img:hover {
+    opacity: 0.6;
+}
+
+.card-p {
+    color: var(--theme-dark);
+}
+
+.card-p i {
+    color: var(--theme-dark);
+    margin-right: 8px;
 }
 
 @media only screen and (max-width: 991px),

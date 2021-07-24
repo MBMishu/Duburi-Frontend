@@ -19,6 +19,20 @@ body {
     /* overflow-x: hidden; */
 }
 
+.overallBody {
+    font-size: 16px;
+    /* background: #131313; */
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100%;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+    background-color: white;
+    /* overflow-x: hidden; */
+}
+
 ::-moz-selection {
     /* Code for Firefox */
     background: var(--theme-color);
